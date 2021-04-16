@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+}
+section{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    width:  500px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+}
+
+#cont1{
+    background-color: grey;
+    border-radius: 10px;
+    padding: 15px;
+    width:  470px;
+    height: 100px;
+    margin: center;
+    text-align: center;
+}
+
+#res{
+    background-color: grey;
+    border-radius: 10px;
+    padding: 15px;
+    width:  470px;
+    height: 220px;
+    margin: center;
+    text-align: center;
+    }

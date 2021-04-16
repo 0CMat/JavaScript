@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 17</title>
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div id="cont1">
+            <h2>Digite um Valor (1 a 100):</h2>
+            <input type="number" name="number" id="number" min="1" max="100">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+        </div>
+        <hr>
+        <div id="res"> 
+            <p><strong> Preencha os dados acima!</strong></p>
+            <br><select name="flista" id="flista" size="5"></select>
+            <br><input type="button" value="Finalizar" onclick="finalizar()">
+            <br><input type="button" value="Limpar" onclick="limpar()">
+        </div>
+    </section>
+    <footer>
+        <p>&copy;0cmat - Github</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
