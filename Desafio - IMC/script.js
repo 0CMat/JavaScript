@@ -20,13 +20,13 @@ function calcular(){
             else if(IMCTotal > 18.6 && IMCTotal <= 24.9){
                 ClasIMC = `Peso Normal`
             }
-            else if(IMCTotal > 25 && IMCTotal <=  29.9){
+            else if(IMCTotal >= 25 && IMCTotal <=  29.9){
                 ClasIMC = `Sobrepeso`
             }
-            else if(IMCTotal > 30 && IMCTotal <= 34.9){
+            else if(IMCTotal >= 30 && IMCTotal <= 34.9){
                 ClasIMC = `Obesidade Grau 1`
             }
-            else if(IMCTotal > 35 && IMCTotal <= 39.9){
+            else if(IMCTotal >= 35 && IMCTotal <= 39.9){
                 ClasIMC = `Obesidade Grau 2`
             }
             else{
