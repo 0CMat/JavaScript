@@ -11,6 +11,30 @@ function calcular(){
         var IMCTotal = res.toFixed(1)
         resposta.style.textAlign = 'center'
         resposta.style.font = 'normal 15pt Arial'
-        resposta.innerHTML = `${nome.value} seu IMC é ${IMCTotal}`
+
+        var ClasIMC = `Não definido`
+            if(IMCTotal < 18.5){
+                ClasIMC = `Abaixo do Peso`
+                console.log(IMCTotal)
+            }
+            else if(IMCTotal > 18.6 && IMCTotal <= 24.9){
+                ClasIMC = `Peso Normal`
+            }
+            else if(IMCTotal > 25 && IMCTotal <=  29.9){
+                ClasIMC = `Sobrepeso`
+            }
+            else if(IMCTotal > 30 && IMCTotal <= 34.9){
+                ClasIMC = `Obesidade Grau 1`
+            }
+            else if(IMCTotal > 35 && IMCTotal <= 39.9){
+                ClasIMC = `Obesidade Grau 2`
+            }
+            else{
+                ClasIMC = `Obesidade Grau 3 ou Mórbida`
+            }
+        resposta.innerHTML = `<strong>${nome.value}</strong> seu IMC é <strong>${IMCTotal}</strong>`
+        resposta.innerHTML += `<p><strong>Classificação de IMC:</strong> ${ClasIMC} </p>`
     }
+
+
 }
