@@ -8,8 +8,9 @@ function calcular(){
         window.alert("[ERRO] - Preencha os campos para calcular o IMC!")
     }else{
         res = peso.value/(altura.value*altura.value)
+        var IMCTotal = res.toFixed(1)
         resposta.style.textAlign = 'center'
         resposta.style.font = 'normal 15pt Arial'
-        resposta.innerHTML = `${nome.value} seu IMC é ${res}`
+        resposta.innerHTML = `${nome.value} seu IMC é ${IMCTotal}`
     }
 }
