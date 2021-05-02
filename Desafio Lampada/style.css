@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font: bold 50px Times;
+    text-shadow: 5px 5px 5px gold;
+}
+
+#ligar{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-style: double;
+  }
+  
+#ligar:hover {
+    background-color: gold;
+    color: black;
+}
+
+#desligar{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-style: double;
+ }
+
+footer{
+    text-align: center;
+    font: bold 15px Arial;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
