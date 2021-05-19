@@ -1,0 +1,126 @@
+body{
+    background-color: goldenrod;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 15%;
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px white;
+    border-style: double;
+    padding: 5px;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.relogio{
+    color: aliceblue;
+    text-shadow: black 2px 1px 1px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    display: inline-block;
+}
+
+#inicio{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-style: double;
+}
+
+#inicio:disabled {
+    background-color: goldenrod;
+    color:black;
+}
+
+#inicio:hover {
+    background-color: green;
+    color:white;
+}
+
+#parar{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-style: double;
+}
+
+#parar:disabled {
+    background-color: goldenrod;
+    color:black;
+}
+
+#parar:hover {
+    background-color: red;
+    color:white;
+}
+
+#continuar{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-style: double;
+}
+
+#continuar:disabled {
+    background-color: goldenrod;
+    color:black;
+}
+
+#continuar:hover {
+    background-color: gold;
+    color:black;
+}
+
+#reinicio{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-style: double;
+}
+
+#reinicio:disabled {
+    background-color: goldenrod;
+    color:black;
+}
+
+#reinicio:hover {
+    background-color: rgb(0, 81, 255);
+    color:black;
+}
+
+footer{
+    font: bold 15px Arial;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

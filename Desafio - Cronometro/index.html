@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cronômetro
+    </h1>
+    <div id="cronometro">
+        <div id="contador">
+            <div class="relogio" id="Horas">00</div>
+            <div class="relogio" id="Minutos">:00</div>
+            <div class="relogio" id="Segundos">:00</div>
+            <div class="relogio" id="Centesimos">:00</div>
+        </div>
+        <div id="botoes">
+            <input type="button" id="inicio" value="&#9658;" onclick="inicio()"  title="Iniciar">
+            <input type="button" id="parar" value="&#8718;" onclick="parar()" disabled   title="Parar">
+            <input type="button" id="continuar" value="&#8634;" onclick="inicio()" disabled   title="Continuar">
+            <input type="button"  id="reinicio" value="&#8635;" onclick="reinicio()" disabled   title="Reiniciar">
+        </div>
+    </div>
+   <script src="script.js"></script>
+   <footer>
+        <p><a href="https://github.com/0CMat" target="_blank" title="Acesse meu repositório no GitHub!">Desenvolvido: &copy;0CMat</a></p>
+    </footer>
+</body>
+</html>
